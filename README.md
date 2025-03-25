@@ -1,7 +1,7 @@
 # Applicant_Tracking_system
 
 ## Overview
-The **Applicant Tracking System (ATS)** is a resume analysis tool that leverages **Streamlit** for the UI, follows an **MVC architecture**, and utilizes **LLM (via Groq API)** to score resumes. It provides two main functionalities:
+The **Applicant Tracking System (ATS)** is a resume analysis tool that leverages **Streamlit** for the UI, follows an **MVC architecture**, and utilizes **LLM (via Groq API)** to score resumes. It provides three main functionalities:
 
 1. **Single Resume Analyzer** - Evaluates a single resume and provides:
    - **Format Score**
@@ -15,6 +15,10 @@ The **Applicant Tracking System (ATS)** is a resume analysis tool that leverages
    - **Phone Number**
    - **Skills in Resume**
    - **ATS Score** (Displayed in a tabular format)
+3. **Dashboard** - Displays analysis like:
+   - **most knwon skills**
+   - **Average ATS score**
+   - **Weekly submission**
 
 ## Tech Stack
 - **Frontend**: Streamlit (for UI)
