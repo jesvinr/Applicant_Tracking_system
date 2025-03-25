@@ -76,7 +76,7 @@ Stores applicant details, including:
    ```
 4. Run the application:
    ```sh
-   streamlit run app.py
+   streamlit run main.py
    ```
 
 ## Usage
